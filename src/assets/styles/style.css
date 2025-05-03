@@ -166,21 +166,6 @@ body {
   .info-icon {
     font-size: 1.1rem;
   }
-
-  .hero-section {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    min-height: 100vh;
-    padding: 120px 40px 40px 80px;
-    background: linear-gradient(to bottom, #000000, #1e1e1e);
-    color: #fff;
-  }
-  
-  .hero-content {
-    max-width: 600px;
-    animation: fadeIn 1s ease-in-out forwards;
-  }
   
   .hero-title {
     font-size: 3rem;
