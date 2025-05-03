@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
     font-family: 'Segoe UI', sans-serif;
     background-color: #0d0d0d;
     color: #ffffff;
@@ -88,20 +89,24 @@ body {
   }
 
   .hero-section {
+    height: 100vh;
     display: flex;
-    flex-direction: column; /* Stack content on small screens */
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 6rem 1rem 2rem; /* Reduced side padding for small screens */
-    text-align: center; /* Center content horizontally */
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 6rem 1rem 2rem;  /* <- Reduce side padding */
+    color: #fff;
+    background: url('/assets/tenor.gif') center center / cover no-repeat;
     background-attachment: fixed;
     position: relative;
     z-index: 1;
+    overflow-x: hidden;
+    box-sizing: border-box;
   }
   
   .hero-content {
-    max-width: 90%;
+    max-width: 100%;
+    width: 100%;
   }
   
   @media (min-width: 768px) {
@@ -772,15 +777,18 @@ body {
   height: 100vh;
   width: 100%;
   background-color: #000;
-  padding: 0 1rem;
-  text-align: center;
+  padding: 0 1rem; /* Prevents text from touching screen edges */
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .intro-text {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   font-weight: 800;
   color: #e50914;
   letter-spacing: 0.15em;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 @media (min-width: 768px) {
@@ -788,19 +796,4 @@ body {
     font-size: 4rem;
     letter-spacing: 0.25em;
   }
-}
-
-@keyframes logoIntro {
-  0% {
-    opacity: 0;
-    transform: scale(0.8) translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1) translateY(0);
-  }
-}
-
-.animate-logoIntro {
-  animation: logoIntro 1.5s ease-out forwards;
 }
