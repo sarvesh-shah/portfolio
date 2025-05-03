@@ -1,111 +1,110 @@
 [
-    {
-      "name": "Python",
-      "icon": "FaPython",
-      "category": "Programming",
-      "description": "Versatile scripting language used in automation, AI, and web development."
-    },
-    {
-      "name": "Java",
-      "icon": "FaJava",
-      "category": "Programming",
-      "description": "Object-oriented programming language widely used in enterprise systems."
-    },
-    {
-      "name": "C++",
-      "icon": "",
-      "category": "Programming",
-      "description": "High-performance language for systems and game development."
-    },
-    {
-      "name": "SQL",
-      "icon": "FaDatabase",
-      "category": "Databases",
-      "description": "Standard language for querying and managing relational databases."
-    },
-    {
-      "name": "Flask",
-      "icon": "SiFlask",
-      "category": "Web & Frameworks",
-      "description": "Lightweight Python web framework for building APIs and web apps."
-    },
-    {
-      "name": "Django",
-      "icon": "SiDjango",
-      "category": "Web & Frameworks",
-      "description": "Python web framework that promotes rapid development and clean design."
-    },
-    {
-      "name": "React",
-      "icon": "FaReact",
-      "category": "Web & Frameworks",
-      "description": "JavaScript library for building modern, responsive UIs."
-    },
-    {
-      "name": "MongoDB",
-      "icon": "SiMongodb",
-      "category": "Databases",
-      "description": "Document-oriented NoSQL database used for high-volume data storage."
-    },
-    {
-      "name": "PostgreSQL",
-      "icon": "SiPostgresql",
-      "category": "Databases",
-      "description": "Open-source SQL database known for reliability and advanced features."
-    },
-    {
-      "name": "AWS",
-      "icon": "FaAws",
-      "category": "Cloud & DevOps",
-      "description": "Amazon Web Services platform for scalable cloud infrastructure and services."
-    },
-    {
-      "name": "GitHub",
-      "icon": "FaGitAlt",
-      "category": "Cloud & DevOps",
-      "description": "Platform for code versioning, collaboration, and CI/CD."
-    },
-    {
-      "name": "JIRA",
-      "icon": "SiJira",
-      "category": "Cloud & DevOps",
-      "description": "Agile project management tool for issue tracking and sprint planning."
-    },
-    {
-      "name": "HTML",
-      "icon": "SiHtml5",
-      "category": "Web & Frameworks",
-      "description": "Markup language for structuring web content."
-    },
-    {
-      "name": "CSS",
-      "icon": "SiCss3",
-      "category": "Web & Frameworks",
-      "description": "Stylesheet language for designing web pages."
-    },
-    {
-      "name": "Bootstrap",
-      "icon": "",
-      "category": "Web & Frameworks",
-      "description": "Front-end framework for responsive web design."
-    },
-    {
-      "name": "REST API",
-      "icon": "",
-      "category": "Web & Frameworks",
-      "description": "Architectural style for designing networked applications."
-    },
-    {
-      "name": "Apache Spark",
-      "icon": "SiApacheairflow",
-      "category": "Big Data",
-      "description": "Unified analytics engine for big data processing."
-    },
-    {
-      "name": "PySpark",
-      "icon": "",
-      "category": "Big Data",
-      "description": "Python API for Apache Spark enabling large-scale data analysis."
-    }
-  ]
-  
+  {
+    "name": "Python",
+    "icon": "Python",
+    "category": "Programming",
+    "description": "Versatile scripting language used in automation, AI, and web development."
+  },
+  {
+    "name": "Java",
+    "icon": "Java",
+    "category": "Programming",
+    "description": "Object-oriented programming language widely used in enterprise systems."
+  },
+  {
+    "name": "C++",
+    "icon": "C++",
+    "category": "Programming",
+    "description": "High-performance language for systems and game development."
+  },
+  {
+    "name": "SQL",
+    "icon": "SQL",
+    "category": "Databases",
+    "description": "Standard language for querying and managing relational databases."
+  },
+  {
+    "name": "Flask",
+    "icon": "Flask",
+    "category": "Web & Frameworks",
+    "description": "Lightweight Python web framework for building APIs and web apps."
+  },
+  {
+    "name": "Django",
+    "icon": "Django",
+    "category": "Web & Frameworks",
+    "description": "Python web framework that promotes rapid development and clean design."
+  },
+  {
+    "name": "React",
+    "icon": "React",
+    "category": "Web & Frameworks",
+    "description": "JavaScript library for building modern, responsive UIs."
+  },
+  {
+    "name": "HTML",
+    "icon": "HTML",
+    "category": "Web & Frameworks",
+    "description": "Markup language for structuring web content."
+  },
+  {
+    "name": "CSS",
+    "icon": "CSS",
+    "category": "Web & Frameworks",
+    "description": "Stylesheet language for designing web pages."
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "Bootstrap",
+    "category": "Web & Frameworks",
+    "description": "Front-end framework for responsive web design."
+  },
+  {
+    "name": "REST API",
+    "icon": "REST API",
+    "category": "Web & Frameworks",
+    "description": "Architectural style for designing networked applications."
+  },
+  {
+    "name": "MongoDB",
+    "icon": "MongoDB",
+    "category": "Databases",
+    "description": "Document-oriented NoSQL database used for high-volume data storage."
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "PostgreSQL",
+    "category": "Databases",
+    "description": "Open-source SQL database known for reliability and advanced features."
+  },
+  {
+    "name": "Apache Spark",
+    "icon": "Apache Spark",
+    "category": "Big Data",
+    "description": "Unified analytics engine for big data processing."
+  },
+  {
+    "name": "PySpark",
+    "icon": "PySpark",
+    "category": "Big Data",
+    "description": "Python API for Apache Spark enabling large-scale data analysis."
+  },
+  {
+    "name": "AWS",
+    "icon": "AWS",
+    "category": "Cloud & DevOps",
+    "description": "Amazon Web Services platform for scalable cloud infrastructure and services."
+  },
+  {
+    "name": "GitHub",
+    "icon": "GitHub",
+    "category": "Cloud & DevOps",
+    "description": "Platform for code versioning, collaboration, and CI/CD."
+  },
+  {
+    "name": "JIRA",
+    "icon": "JIRA",
+    "category": "Cloud & DevOps",
+    "description": "Agile project management tool for issue tracking and sprint planning."
+  }
+]
