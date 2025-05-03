@@ -46,6 +46,7 @@ export default function Navbar() {
 
       {/* Sidebar Menu */}
       <div className={`sidebar ${isSidebarOpen ? 'show' : ''}`}>
+      <div className="sidebar-close-button" onClick={closeSidebar}>X</div>
         <ul className="sidebar-links">
           {['About', 'Experience', 'Education', 'Projects', 'Skills', 'Certifications', 'Contact'].map(link => (
             <li key={link}>

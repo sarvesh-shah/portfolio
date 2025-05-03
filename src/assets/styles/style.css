@@ -490,6 +490,15 @@ body {
   transform: translateX(0);
 }
 
+.sidebar-close-button {
+  font-size: 1.5rem;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-bottom: 1.5rem;
+}
+
 .sidebar-links {
   list-style: none;
   padding: 0;
