@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Microsoft Certified Azure Developer Associate",
+      "issuer": "Microsoft",
+      "iconName": "microsoft",
+      "issuedDate": "2023",
+      "link": "https://learn.microsoft.com/en-us/certifications/azure-developer/"
+    },
+    {
+      "title": "Google Associate Cloud Engineer",
+      "issuer": "Google Cloud",
+      "iconName": "google",
+      "issuedDate": "2023",
+      "link": "https://cloud.google.com/certification/cloud-engineer"
+    },
+    {
+      "title": "AWS Gen AI Essentials",
+      "issuer": "Amazon Web Services",
+      "iconName": "aws",
+      "issuedDate": "2023",
+      "link": "https://explore.skillbuilder.aws/learn/course/13597/aws-genai-essentials"
+    }
+  ]
+  
