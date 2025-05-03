@@ -96,7 +96,6 @@ body {
     flex-direction: column;
     padding: 6rem 1rem 2rem;  /* <- Reduce side padding */
     color: #fff;
-    background: url('/assets/tenor.gif') center center / cover no-repeat;
     background-attachment: fixed;
     position: relative;
     z-index: 1;
