@@ -6,7 +6,7 @@ import MoreInfoButton from './MoreInfoButton';
 
 export default function Hero() {
   const handleResumeClick = () => {
-    window.open('/resume.pdf', '_blank'); // Replace with your actual resume URL
+    window.open(`${process.env.PUBLIC_URL}/resume.pdf`, '_blank'); // Replace with your actual resume URL
   };
 
   const handleLinkedInClick = () => {
