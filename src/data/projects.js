@@ -6,7 +6,7 @@ const projects = [
     description:
       "Built a web app for analyzing product reviews. Achieved 90% accuracy using sentiment classification with NLP and rendered insights graphically.",
     date: "Jan 2022 – Apr 2022",
-    image: `${process.env.PUBLIC_URL}/assets/images/sentiment-app.png`, // 👈 Replace with actual image
+    image: `${process.env.PUBLIC_URL}/assets/images/sentiment-app.png`, 
     github: "https://github.com/sarvesh-shah/sentiment_analysis",
     tag: "Published"
   },
