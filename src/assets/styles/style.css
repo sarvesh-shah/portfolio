@@ -435,6 +435,9 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 1rem;
+    padding: 0 1rem;
+    width: 100%;
+    box-sizing: border-box;
   }
   
   .skill-card {
