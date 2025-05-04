@@ -419,6 +419,8 @@ body {
   }
   .skills-category {
     margin-bottom: 3rem;
+    padding: 0 1rem;
+    width: 100%;
   }
   
   .category-title {
@@ -442,9 +444,10 @@ body {
   
   .skill-card {
     background-color: #1e1e1e;
-    padding: 1rem;
     text-align: center;
     border-radius: 8px;
+    padding: 0 1rem;
+    width: 100%;
     box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
     transition: transform 0.3s ease;
   }
