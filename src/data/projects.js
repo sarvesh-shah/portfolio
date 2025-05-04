@@ -6,9 +6,10 @@ const projects = [
     description:
       "Built a web app for analyzing product reviews. Achieved 90% accuracy using sentiment classification with NLP and rendered insights graphically.",
     date: "Jan 2022 – Apr 2022",
-    image: `${process.env.PUBLIC_URL}/assets/images/sentiment-app.png`, 
+    image: `${process.env.PUBLIC_URL}/assets/images/sentiment-app.png`,
     github: "https://github.com/sarvesh-shah/sentiment_analysis",
-    tag: "Published"
+    tag: "Published",
+    link: "https://www.jetir.org/papers/JETIR2305C24.pdf"
   },
   {
     title: "Find Your Flight - Interactive Airport Explorer",

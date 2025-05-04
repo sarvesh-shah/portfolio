@@ -66,9 +66,18 @@ export default function Projects() {
             className="project-image"
           />
         )}
-
+        {/* Project title, tag, date, and description */}
+        <div className="project-details">
         <h3 className="project-title">{project.title}</h3>
-        {project.tag && (<span className="project-tag">{project.tag}</span>)}
+        {project.tag === "Published" && project.link ? (
+  <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-tag published">
+    📄 Published
+  </a>
+) : (
+  project.tag && <span className="project-tag">{project.tag}</span>
+)}
+
+
         <p className="project-date">{project.date}</p>
         <p className="project-desc">{project.description}</p>
 
@@ -90,6 +99,7 @@ export default function Projects() {
               {techIcons[t] || '🛠'} {t}
             </span>
           ))}
+        </div>
         </div>
       </div>
     ))}
