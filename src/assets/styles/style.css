@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    padding-top: 70px;
     font-family: 'Segoe UI', sans-serif;
     background-color: #0d0d0d;
     color: #ffffff;
@@ -306,6 +307,26 @@ body {
     border-color: #e50914;
     box-shadow: 0 8px 20px rgba(229, 9, 20, 0.5);
   }
+  .project-image {
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .project-tag {
+    display: inline-block;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  
   
   /* Animation */
   @keyframes fadeInUp {

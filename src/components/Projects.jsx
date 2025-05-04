@@ -68,20 +68,21 @@ export default function Projects() {
         )}
 
         <h3 className="project-title">{project.title}</h3>
+        {project.tag && (<span className="project-tag">{project.tag}</span>)}
         <p className="project-date">{project.date}</p>
         <p className="project-desc">{project.description}</p>
 
         {/* GitHub Button */}
         {project.github && (
-          <a
-            href={project.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="github-button"
-          >
-            <FaGithub /> View on GitHub
-          </a>
-        )}
+  <a
+    href={project.github}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="github-button"
+  >
+    <FaGithub /> View on GitHub
+  </a>
+)}
 
         <div className="tech-badges">
           {project.tech.map((t, i) => (
