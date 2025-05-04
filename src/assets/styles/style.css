@@ -481,6 +481,9 @@ body {
     font-size: 1rem;
     font-weight: 500;
     color: #fff;
+    margin-top: 0.5rem;
+    text-align: center;
+    overflow-wrap: break-word;
   }
   .skill-desc {
     font-size: 0.85rem;
