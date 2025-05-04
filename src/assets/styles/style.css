@@ -417,10 +417,14 @@ body {
   .tech-icon {
     font-size: 1.1rem;
   }
-  .skills-category {
-    margin-bottom: 3rem;
+
+  .skills-section{
     padding: 0 1rem;
     width: 100%;
+
+  }
+  .skills-category {
+    margin-bottom: 3rem;
   }
   
   .category-title {
@@ -437,17 +441,14 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 1rem;
-    padding: 0 1rem;
-    width: 100%;
     box-sizing: border-box;
   }
   
   .skill-card {
     background-color: #1e1e1e;
     text-align: center;
+    padding: 1rem;
     border-radius: 8px;
-    padding: 0 1rem;
-    width: 100%;
     box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
     transition: transform 0.3s ease;
   }
