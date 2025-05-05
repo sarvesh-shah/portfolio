@@ -28,7 +28,7 @@ export default function Hero() {
       <div className="hero-content">
         <h1 className="hero-title">Sarvesh Shah</h1>
         <p className="hero-subtitle">
-        AWS Cloud & AI Developer | Full-Stack Engineer | React | Python | SQL | DevOps | LLMs | OpenAI | LangChain
+        Cloud & AI Developer | Full-Stack Engineer | React | Python | SQL | DevOps | LLMs | OpenAI | LangChain
         </p>
         <p className="hero-location">Jersey City, NJ | sarveshshah2000@gmail.com</p>
 
