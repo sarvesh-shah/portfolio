@@ -226,5 +226,29 @@
     "icon": "AI Agents",
     "category": "AI/ML",
     "description": "Autonomous systems capable of reasoning, planning, and acting using LLMs."
-  }
+  },
+  {
+    "name": "CI/CD",
+    "icon": "CI/CD",
+    "category": "Cloud & DevOps",
+    "description": "Practices for continuous integration and deployment that automate build, test, and release pipelines."
+  },
+  {
+    "name": "Bash",
+    "icon": "Bash",
+    "category": "Programming",
+    "description": "Unix shell and scripting language used for automation, DevOps, and command-line utilities."
+  },
+  {
+    "name": "GitHub Actions",
+    "icon": "GitHub Actions",
+    "category": "Cloud & DevOps",
+    "description": "GitHub's native CI/CD platform to automate workflows and deployments."
+  },
+  {
+    "name": "Agile",
+    "icon": "Agile",
+    "category": "Project Management",
+    "description": "Iterative software development methodology focusing on collaboration, customer feedback, and rapid delivery."
+  } 
 ]

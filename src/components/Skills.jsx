@@ -4,12 +4,13 @@ import skillsData from '../assets/skills.json';
 
 // ICON MAP
 import {
-  FaPython, FaJava, FaDatabase, FaAws, FaReact, FaGitAlt, FaDocker
+  FaPython, FaJava, FaDatabase, FaAws, FaReact, FaGitAlt, FaDocker, FaTools, FaTerminal
 } from 'react-icons/fa';
 import {
   SiMongodb, SiPostgresql, SiFlask, SiDjango, SiHtml5, SiCss3, SiJira, SiApacheairflow, 
-  SiGooglecloud, SiBootstrap, SiCplusplus, SiPytorch, SiTensorflow, SiNumpy, SiScikitlearn
+  SiGooglecloud, SiBootstrap, SiCplusplus, SiPytorch, SiTensorflow, SiNumpy, SiScikitlearn, SiGithubactions 
 } from 'react-icons/si';
+import { MdOutlineRunningWithErrors } from 'react-icons/md';
 import { VscAzure } from "react-icons/vsc";
 
 const iconMap = {
@@ -50,7 +51,11 @@ const iconMap = {
   "LLM Integration": '🧠',
   "Prompt Chaining": '🔗',
   "Anomaly Detection": '🚨',
-  "AI Agents": '🕵️'
+  "AI Agents": '🕵️',
+  "CI/CD": <FaTools />,
+  "Bash": <FaTerminal />,
+  "GitHub Actions": <SiGithubactions />,
+  "Agile": <MdOutlineRunningWithErrors />
 };
 
 const categoryOrder = [
@@ -60,7 +65,8 @@ const categoryOrder = [
   "Web & Frameworks",
   "Databases",
   "Big Data",
-  "Cloud & DevOps"
+  "Cloud & DevOps",
+  "Project Management"
 ];
 
 
