@@ -6,19 +6,23 @@ import MoreInfoButton from './MoreInfoButton';
 
 export default function Hero() {
   const handleResumeClick = () => {
-    window.open(`${process.env.PUBLIC_URL}/sarvesh-shah-resume.pdf`, '_blank'); 
+    window.open('/resume.pdf', '_blank'); // Replace with your actual resume URL
   };
 
   const handleLinkedInClick = () => {
-    window.open('https://linkedin.com/in/sarvesh-shah-4b9729155', '_blank'); 
+    window.open('https://linkedin.com/in/sarvesh-shah-4b9729155', '_blank'); // Replace with your LinkedIn
   };
 
   return (
+    <div className='hero-container'> 
     <section
       className="hero-section"
       style={{
-        background: `url(${backgroundGif}) center center / cover no-repeat`,
-        backgroundAttachment: 'fixed'
+        background: `url(${backgroundGif}) `,
+        backgroundAttachment: 'fixed',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
       }}
     >
       <div className="hero-content">
@@ -34,5 +38,6 @@ export default function Hero() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
