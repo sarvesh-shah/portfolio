@@ -615,6 +615,10 @@ body {
   .hamburger {
     display: flex;
   }
+
+  .hero-section{
+    border-radius: 8px;
+  }
 }
 
 /* ========== Section Button ========== */
