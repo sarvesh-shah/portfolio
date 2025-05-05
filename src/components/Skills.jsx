@@ -4,13 +4,12 @@ import skillsData from '../assets/skills.json';
 
 // ICON MAP
 import {
-  FaPython, FaJava, FaDatabase, FaAws, FaReact, FaGitAlt, FaDocker, FaTools, FaTerminal
+  FaPython, FaJava, FaDatabase, FaAws, FaReact, FaGitAlt, FaDocker, FaTools, FaTerminal, FaUndoAlt
 } from 'react-icons/fa';
 import {
   SiMongodb, SiPostgresql, SiFlask, SiDjango, SiHtml5, SiCss3, SiJira, SiApacheairflow, 
   SiGooglecloud, SiBootstrap, SiCplusplus, SiPytorch, SiTensorflow, SiNumpy, SiScikitlearn, SiGithubactions 
 } from 'react-icons/si';
-import { MdOutlineRunningWithErrors } from 'react-icons/md';
 import { VscAzure } from "react-icons/vsc";
 
 const iconMap = {
@@ -55,7 +54,7 @@ const iconMap = {
   "CI/CD": <FaTools />,
   "Bash": <FaTerminal />,
   "GitHub Actions": <SiGithubactions />,
-  "Agile": <MdOutlineRunningWithErrors />
+  "Agile": <FaUndoAlt />
 };
 
 const categoryOrder = [
