@@ -9,7 +9,7 @@ import Skills from './components/Skills';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import '../src/styles/animations.css'; // make sure this is included
+import '../src/styles/animations.css';
 
 export default function App() {
   const [intro, setIntro] = useState(true);
