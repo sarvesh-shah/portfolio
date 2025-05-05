@@ -78,6 +78,12 @@
     "description": "Open-source SQL database known for reliability and advanced features."
   },
   {
+    "name": "NoSQL",
+    "icon": "NoSQL",
+    "category": "Databases",
+    "description": "Non-relational database design ideal for flexible, scalable, and high-performance applications."
+  },  
+  {
     "name": "Apache Spark",
     "icon": "Apache Spark",
     "category": "Big Data",
@@ -96,6 +102,18 @@
     "description": "Amazon Web Services platform for scalable cloud infrastructure and services."
   },
   {
+    "name": "Google Cloud",
+    "icon": "Google Cloud",
+    "category": "Cloud & DevOps",
+    "description": "Google Cloud Platform providing scalable and intelligent cloud solutions."
+  },
+  {
+    "name": "Azure",
+    "icon": "Azure",
+    "category": "Cloud & DevOps",
+    "description": "Microsoft Azure cloud platform offering IaaS, PaaS, and SaaS solutions."
+  },
+  {
     "name": "GitHub",
     "icon": "GitHub",
     "category": "Cloud & DevOps",
@@ -106,5 +124,107 @@
     "icon": "JIRA",
     "category": "Cloud & DevOps",
     "description": "Agile project management tool for issue tracking and sprint planning."
+  },
+  {
+    "name": "Docker",
+    "icon": "Docker",
+    "category": "Cloud & DevOps",
+    "description": "Platform for developing, shipping, and running applications in isolated containers."
+  },  
+  {
+    "name": "PyTorch",
+    "icon": "PyTorch",
+    "category": "AI/ML",
+    "description": "Deep learning framework known for flexibility and dynamic computation graphs."
+  },
+  {
+    "name": "TensorFlow",
+    "icon": "TensorFlow",
+    "category": "AI/ML",
+    "description": "End-to-end open-source platform for machine learning and neural networks."
+  },
+  {
+    "name": "NumPy",
+    "icon": "NumPy",
+    "category": "Programming",
+    "description": "Fundamental Python library for numerical computing and array operations."
+  },
+  {
+    "name": "Scikit-learn",
+    "icon": "Scikit-learn",
+    "category": "AI/ML",
+    "description": "Machine learning library for predictive data analysis."
+  },
+  {
+    "name": "SMOTE",
+    "icon": "SMOTE",
+    "category": "AI/ML",
+    "description": "Oversampling technique for handling class imbalance in datasets."
+  },
+  {
+    "name": "Naïve Bayes",
+    "icon": "Naïve Bayes",
+    "category": "AI/ML",
+    "description": "Simple and effective probabilistic classifier based on Bayes' theorem."
+  },
+  {
+    "name": "Decision Trees",
+    "icon": "Decision Trees",
+    "category": "AI/ML",
+    "description": "Supervised learning model used for classification and regression."
+  },
+  {
+    "name": "LLM APIs",
+    "icon": "OpenAI GPT",
+    "category": "AI/ML",
+    "description": "APIs for interacting with large language models for intelligent text processing."
+  },
+  {
+    "name": "LangChain",
+    "icon": "LangChain",
+    "category": "LLM Tooling",
+    "description": "Framework for building context-aware applications powered by language models."
+  },
+  {
+    "name": "Prompt Engineering",
+    "icon": "Prompt Engineering",
+    "category": "LLM Tooling",
+    "description": "Crafting effective prompts to optimize LLM outputs."
+  },
+  {
+    "name": "OpenAI GPT",
+    "icon": "OpenAI GPT",
+    "category": "LLM Tooling",
+    "description": "Advanced generative language model for intelligent text generation."
+  },
+  {
+    "name": "RAG Architecture",
+    "icon": "RAG Architecture",
+    "category": "LLM Tooling",
+    "description": "Retrieval-Augmented Generation: Enhances LLMs by pulling in external knowledge."
+  },
+  {
+    "name": "LLM Integration",
+    "icon": "LLM Integration",
+    "category": "LLM Tooling",
+    "description": "Embedding large language models into applications for intelligent workflows."
+  },
+  {
+    "name": "Prompt Chaining",
+    "icon": "Prompt Chaining",
+    "category": "LLM Tooling",
+    "description": "Technique of linking multiple prompts for complex task execution in LLMs."
+  },
+  {
+    "name": "Anomaly Detection",
+    "icon": "Anomaly Detection",
+    "category": "AI/ML",
+    "description": "Technique to identify rare items, events, or observations that raise suspicions."
+  },
+  {
+    "name": "AI Agents",
+    "icon": "AI Agents",
+    "category": "AI/ML",
+    "description": "Autonomous systems capable of reasoning, planning, and acting using LLMs."
   }
 ]

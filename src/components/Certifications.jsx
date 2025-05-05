@@ -1,11 +1,13 @@
 import React from 'react';
 import '../assets/styles/style.css';
 import certs from '../assets/certifications.json';
-import { FaExternalLinkAlt, FaUniversity, FaAws, FaMicrosoft } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaUniversity, FaAws } from 'react-icons/fa';
 import { SiGooglecloud } from 'react-icons/si';
 
+import { VscAzure} from "react-icons/vsc";
+
 const iconMap = {
-  microsoft: <FaMicrosoft />,
+  microsoft: <VscAzure />,
   google: <SiGooglecloud />,
   aws: <FaAws />,
   default: <FaUniversity />

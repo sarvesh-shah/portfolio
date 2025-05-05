@@ -15,7 +15,7 @@ export default function App() {
   const [intro, setIntro] = useState(true);
 
   useEffect(() => {
-    const audio = new Audio('/portfolio/assets/netflix.mp3');
+    const audio = new Audio(`${process.env.PUBLIC_URL}/assets/netflix.mp3`);
     audio.volume = 0.7;
     audio.play().catch(() => {});
 
