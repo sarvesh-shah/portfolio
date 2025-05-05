@@ -64,8 +64,7 @@ const categoryOrder = [
   "Web & Frameworks",
   "Databases",
   "Big Data",
-  "Cloud & DevOps",
-  "Project Management"
+  "Cloud & DevOps"
 ];
 
 
