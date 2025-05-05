@@ -620,11 +620,16 @@ body {
   .hero-section{
     border-radius: 20px;
     overflow: hidden;
+    display:flex;
+    align-items: flex-start;
     background-color: #141414;
   }
-
   .hero-container {
-    padding: 2rem;
+    padding: 0.6rem;
+  }
+  .hero-buttons {
+    flex-wrap: wrap;
+    gap: 0.75rem;
   }
 }
 
