@@ -6,7 +6,7 @@ import MoreInfoButton from './MoreInfoButton';
 
 export default function Hero() {
   const handleResumeClick = () => {
-    window.open('/resume.pdf', '_blank'); // Replace with your actual resume URL
+    window.open('/sarvesh-shah-resume.pdf', '_blank'); // Replace with your actual resume URL
   };
 
   const handleLinkedInClick = () => {
