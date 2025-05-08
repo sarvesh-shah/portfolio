@@ -362,21 +362,7 @@ body {
     position: relative;
   }
 
-  .scroll-arrow {
-    position: absolute;
-    right: 0.5rem;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2rem;
-    color: #e50914;
-    animation: bounce 1s infinite;
-    z-index: 10;
-    pointer-events: none;
-  }
-
-  .scroll-arrow.hidden {
-    opacity: 0;
-  }
+  
   
   @keyframes bounce {
     0%, 100% {
@@ -663,6 +649,21 @@ body {
   }
   .hero-buttons {
     gap: 0.75rem;
+  }
+  .scroll-arrow {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #e50914;
+    animation: bounce 1s infinite;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  .scroll-arrow.hidden {
+    opacity: 0;
   }
 }
 

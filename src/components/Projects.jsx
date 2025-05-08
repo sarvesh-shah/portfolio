@@ -56,7 +56,7 @@ export default function Projects() {
   
     const handleScroll = () => {
       if (window.innerWidth <= 768) {
-        if (wrapper.scrollLeft > 10) {
+        if (wrapper.scrollLeft > 3) {
           setScrolled(true);
         } else {
           setScrolled(false);
@@ -127,7 +127,7 @@ export default function Projects() {
       </div>
     ))}
   </div>
-  {window.innerWidth <= 768 && !scrolled && (<div className="scroll-arrow">→</div>)}
+  {!scrolled && <div className="scroll-arrow">→</div>}  
   </div>
 </section>
 
