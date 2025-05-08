@@ -1,6 +1,5 @@
 import React from 'react';
 import '../assets/styles/style.css';
-import backgroundGif from '../assets/images/tenor.gif';
 import PlayButton from './PlayButton';
 import MoreInfoButton from './MoreInfoButton';
 
@@ -17,13 +16,6 @@ export default function Hero() {
     <div className='hero-container'> 
     <section
       className="hero-section"
-      style={{
-        background: `url(${backgroundGif}) `,
-        backgroundAttachment: 'fixed',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}
     >
       <div className="hero-content">
         <h1 className="hero-title">Sarvesh Shah</h1>

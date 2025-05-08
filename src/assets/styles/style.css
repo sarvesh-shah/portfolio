@@ -101,6 +101,10 @@ body {
     background-attachment: fixed;
     position: relative;
     z-index: 1;
+    background-image: url('../assets/images/suits.gif'), url('../assets/images/fallback.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .hero-content {
@@ -623,6 +627,7 @@ body {
     display:flex;
     align-items: flex-start;
     background-color: #141414;
+    background-attachment: scroll !important;
   }
   .hero-container {
     padding: 0.5rem;
