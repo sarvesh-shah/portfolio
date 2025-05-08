@@ -101,7 +101,7 @@ body {
     background-attachment: fixed;
     position: relative;
     z-index: 1;
-    background-image: url('../assets/images/suits.gif'), url('../assets/images/fallback.jpeg');
+    background-image: url('../images/suits.gif'), url('../images/fallback.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
