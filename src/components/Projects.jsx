@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import projects from '../data/projects';
 import '../assets/styles/style.css';
 import { FaGithub } from 'react-icons/fa';
@@ -48,9 +48,32 @@ const techIcons = {
 };
 
 export default function Projects() {
+  const [scrolled, setScrolled] = useState(false);
+  const wrapperRef = useRef(null);
+
+  useEffect(() => {
+    const wrapper = wrapperRef.current;
+  
+    const handleScroll = () => {
+      if (window.innerWidth <= 768) {
+        if (wrapper.scrollLeft > 10) {
+          setScrolled(true);
+        } else {
+          setScrolled(false);
+        }
+      }
+    };
+  
+    if (wrapper) {
+      wrapper.addEventListener('scroll', handleScroll);
+      return () => wrapper.removeEventListener('scroll', handleScroll);
+    }
+  }, []);
+  
   return (
     <section id="projects" className="projects-section">
   <h2 className="projects-title">Projects</h2>
+  <div className="projects-slider-container">
   <div className="projects-wrapper">
     {projects.map((project, index) => (
       <div
@@ -103,6 +126,8 @@ export default function Projects() {
         </div>
       </div>
     ))}
+  </div>
+  {window.innerWidth <= 768 && !scrolled && (<div className="scroll-arrow">→</div>)}
   </div>
 </section>
 

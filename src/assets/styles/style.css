@@ -357,6 +357,35 @@ body {
   .project-tag.published:hover {
     background-color: #ff2a2a;
   }
+
+  .projects-slider-container {
+    position: relative;
+  }
+
+  .scroll-arrow {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #e50914;
+    animation: bounce 1s infinite;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  .scroll-arrow.hidden {
+    opacity: 0;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(-50%) translateX(0);
+    }
+    50% {
+      transform: translateY(-50%) translateX(5px);
+    }
+  }
   
   
   /* Animation */
