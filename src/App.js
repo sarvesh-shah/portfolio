@@ -36,11 +36,11 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
+      <Projects />
+      <Certifications />
       <Education />
       <Experience />
-      <Projects />
       <Skills />
-      <Certifications />
       <Contact />
       <Footer />
     </div>
