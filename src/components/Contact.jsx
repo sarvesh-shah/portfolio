@@ -16,7 +16,7 @@ export default function Contact() {
           <p className="section-text">📧 sarveshshah2000@gmail.com</p>
           <p className="section-text">📞 (640)-250-7441</p>
           <div className="contact-links">
-            <a href="https://www.linkedin.com/in/sarvesh-shah-4b9729155" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/sarveshyshah/" target="_blank" rel="noreferrer">LinkedIn</a>
             <a href="https://github.com/sarvesh-shah" target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </div>
