@@ -8,8 +8,8 @@ body {
     padding-top: 70px;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #141414;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #141414;
     color: #ffffff;
   }
   
@@ -91,22 +91,25 @@ body {
   }
 
   .hero-section {
-    display: flex;
-    flex-direction: column; /* Stack content on small screens */
-    justify-content: center;
-    align-items: center;
+    background: linear-gradient(to bottom right, #0d0d0d, #141414);
+    padding: 6rem 1rem 3rem;
+    border-radius: 0;
     min-height: 100vh;
-    padding: 6rem 1rem 2rem; /* Reduced side padding for small screens */
-    text-align: center; /* Center content horizontally */
-    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     z-index: 1;
-    background-image: url('../images/suits.gif'), url('../images/fallback.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
   
+  .hero-section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%);
+    z-index: -1;
+  }
+
   .hero-content {
     max-width: 90%;
   }
